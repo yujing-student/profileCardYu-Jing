@@ -48,3 +48,5 @@ app.listen(app.get('port'), function () {
 })
 module.exports = app
 
+//je moet npm install doen en npm install ejs apart en dan pas werkt het goed vanwege vercel
+//in de package moet type module weg want anders krijg je een error
